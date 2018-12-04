@@ -1,0 +1,8 @@
+server:
+  port: 8080
+  context-path: /statemachine
+
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/
+

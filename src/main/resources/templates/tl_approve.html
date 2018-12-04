@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-cn" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8"/>
+
+    <title>Login</title>
+
+    <link rel="stylesheet" href="/SpringBootBase/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/SpringBootBase/css/customer/login.css"/>
+</head>
+
+<body>
+<div class="container">
+
+        <h2 class="form-signin-heading"> 审批-请假申请</h2>
+        <p>
+        <p th:text="申请人：${username}"></p>
+        <p th:text="事由：${reason}"></p>
+        <p th:text="日期：${date}"></p>
+
+    <button class="btn btn-lg btn-primary btn-block" type="submit">同意</button>
+
+    <button class="btn btn-lg btn-primary btn-block" type="submit">驳回</button>
+
+</div>
+</body>
+</html>
